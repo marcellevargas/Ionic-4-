@@ -5,6 +5,12 @@ import { Geolocation } from '@ionic-native/geolocation/ngx';
   templateUrl: 'tab1.page.html',
   styleUrls: ['tab1.page.scss']
 })
+
+/* Geolocation install => 
+ionic cordova plugin add cordova-plugin-geolocation
+    npm install @ionic-native/geolocation ;
+*/
+   
 export class Tab1Page {
 
   constructor(private geolocation: Geolocation) {this.getLocation(); }
